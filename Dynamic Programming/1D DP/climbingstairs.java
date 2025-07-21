@@ -7,7 +7,8 @@
 Time Complexity: O(n) — Each value from 0 to n is calculated once.
 Space Complexity: O(n) — Recursion stack + dp[] array.
 */
-class Solution {
+import java.util.*;
+public class climbingstairs {
     public int climbStairs(int n) {
         HashMap<Integer,Integer> memo = new HashMap<>();
         return climbStairs(n,memo);
