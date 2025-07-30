@@ -16,14 +16,14 @@ class Solution {
         int maxVal = 0;
         int result = 0;
         int streak = 0;
-        for(int num : nums){
-            if(num > maxVal){
-                maxVal = num;
-                result = 0;
+        for(int num : nums){  
+            if(num > maxVal){  
+                maxVal = num;  
+                result = 0; 
                 streak = 0;
             }
             if(maxVal == num){
-                streak++;
+                streak++; 
             }
             else{
                 streak = 0;
